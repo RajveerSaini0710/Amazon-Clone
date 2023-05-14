@@ -31,11 +31,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 div img{
 max-width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 #address{
@@ -44,16 +47,105 @@ max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+#locationlogo i{
+    margin-top: 100%;
+}
+
+#hello{
+    margin-left: 3%;
+}
+
+#hello p{
+    color: gray;
+    font-family: arial;
+}
+
+#hello span{
+    font-family: arial;
 }
 
 #search{
-    width: 40%;
+    width: 43%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+#all {
+    /* border: 2px solid green; */
+    width: 12%;
+    height: 47px;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#all select{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    background-color: rgb(243,243,243);
+    cursor: pointer;
+    font-size: 80%;
+    text-indent: 20%;
+    font-weight: bold;
+    color: rgb(120, 114, 114);
+
+}
+
+#searchbar {
+    /* border: 2px solid green; */
+width: 75%;
+height: 49px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#searchbar input{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255,255,255);
+    font-size: 100%;
+     font-weight:Bolder ;
+     color: gray;
+     text-indent: 2%;
+     cursor: pointer;
+    
+}
+
+#searchlogo{
+    /* border: 2px solid green; */
+width: 10%;
+height: 49px;
+border-top-right-radius: 20%;
+border-bottom-right-radius: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgb(254,189,104) ;
+cursor: pointer;
+
+
+}
+
+#searchlogo button{
+
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20%;
+border-bottom-right-radius: 20%;
+background-color:rgb(254,189,104) ;
 }
 
 #language{
@@ -62,34 +154,98 @@ max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+#language h3{
+    /* border: 1px solid green; */
+    width: 25%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#language div{
+    /* border: 1px solid green */
+    width: 70%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#language div select{
+    width: 100%;
+    height: 45%;
+    font-size: 100%;
+    font-weight: bold;
+    background: none;
+    color: white;
+   border: none;
+   text-indent: 10%;
 }
 
 #account{
     width: 11%;
     height: 100%;
-    display: flex;
+    display: inline;
     align-items: center;
-    justify-content: center;
-    border: 1px solid red;
+    text-align: end;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 1%;
+    /* border: 1px solid red; */
 }
 
+#sign{
+text-align:left;
+padding-top: 14%;
+font-size: 75%;
+    color: #b6b2b2;
+    font-family: arial;
+}
+
+#account{
+    text-align: left;
+    color: white;
+    font-family: arial;
+    font-size: 105%;
+
+}
+
+
 #return{
-    width: 8%;
+    width: 6%;
     height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid red;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: left; */
+    /* border: 1px solid red; */
+}
+
+#return1{
+    text-align: left;
+    padding-top: 26%;
+    font-size: 80%;
+    color:  #b6b2b2;
+    font-family: arial;
+}
+
+#orders{
+font-size: 115%;
+font-family: arial;
+
 }
 
 #cart{
-    width: 8%;
+    width: 5%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    border: 1px solid red;
+    /* justify-content: space-around; */
+    /* border: 1px solid red; */
 }
 
 
