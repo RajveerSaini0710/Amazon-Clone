@@ -1,279 +1,458 @@
-@media only screen and (max-width:480px){
-    html{
-font-size: 1px;
+@media only screen and (max-width:480px) {
+    html {
+        font-size: 1px;
     }
 
-    .topnavbar{
+    .topnavbar {
         height: 50px;
     }
-    
-    #logo{
+
+    #logo {
         width: 10%;
     }
-    
-    
-    #address{
+
+
+    #address {
         width: 12%;
-    
+
     }
-    
-#locationlogo{
-    font-size: 5rem;
-    margin-right: 2rem
-}
-    
-    #hello{
+
+    #locationlogo {
+        font-size: 5rem;
+        margin-right: 2rem
+    }
+
+    #hello {
         margin-left: 0%;
     }
-    
-    #hello p{
+
+    #hello p {
         font-size: 5rem;
     }
-    
-    #hello span{
+
+    #hello span {
         font-size: 4rem;
     }
-    
-    #search{
+
+    #search {
         width: 40%;
     }
-    
+
     #all {
         width: 20%;
         height: 20px;
     }
-    
-    #all select{
+
+    #all select {
         font-size: 4rem;
         text-indent: 0%;
-    
-    }
-    
-    #searchbar {
-    width: 75%;
-    height: 20px;
-    }
-    
-    #searchbar input{
-        font-size:5rem;
-        
-    }
-    
-    #searchlogo{
-    width: 15%;
-    height: 20px;
-    
+
     }
 
-    #searchlogo button{
+    #searchbar {
+        width: 75%;
+        height: 20px;
+    }
+
+    #searchbar input {
+        font-size: 5rem;
+
+    }
+
+    #searchlogo {
+        width: 15%;
+        height: 20px;
+
+    }
+
+    #searchlogo button {
         font-size: 10rem;
     }
-    
-    
-    #language{
+
+
+    #language {
         width: 4%;
     }
-    
-    #language h3{
-       font-size: 15rem;
+
+    #language h3 {
+        font-size: 15rem;
     }
-    
-    #language div{
-       display: none;
+
+    #language div {
+        display: none;
     }
-    
-    
-    #account{
+
+
+    #account {
         width: 10%;
         margin-left: 0%;
         display: flex;
         flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-       
+        justify-content: center;
+        align-items: flex-start;
+
     }
-    
-    #sign{
-    font-size: 5rem;
-    padding-top: 0%;
-    
-    }
-    
-    #account1{
+
+    #sign {
         font-size: 5rem;
-       
-    
+        padding-top: 0%;
+
     }
-    
-    
-    #return{
+
+    #account1 {
+        font-size: 5rem;
+
+
+    }
+
+
+    #return {
         width: 10%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
     }
-    
-    #return1{
+
+    #return1 {
         font-size: 5rem;
         padding-top: 0%;
     }
-    
-    #Orders{
-    font-size: 6rem;
-    
+
+    #Orders {
+        font-size: 6rem;
+
     }
 
-    #cart{
+    #cart {
         width: 7%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
 
-  #cartimg i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    font-size: 12rem;
-  }
-#cart h1{
-   
-    width: 0%;
-    display: none;
+
+    #cartimg i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 12rem;
+    }
+
+    #cart h1 {
+
+        width: 0%;
+        display: none;
+    }
+
+
+
+
+    .secondnavbar {
+        height: 14px;
+
+    }
+
+    .left {
+        width: 70%;
+    }
+
+
+
+
+    #span1 {
+        font-size: 7rem;
+        width: 5%;
+
+    }
+
+    #span2 {
+        font-size: 6rem;
+        width: 18%;
+
+    }
+
+    #span3 {
+        font-size: 6rem;
+        width: 7%;
+
+    }
+
+    #span4 {
+        font-size: 6rem;
+        width: 14%;
+
+    }
+
+    #span5 {
+        font-size: 6rem;
+        width: 17%;
+
+    }
+
+    #span6 {
+        font-size: 6rem;
+        width: 9%;
+
+    }
+
+    #span7 {
+        display: none;
+
+    }
+
+    #span8 {
+        display: none;
+
+    }
+
+    #span9 {
+        display: none;
+
+    }
+
+    #span10 {
+        display: none;
+    }
+
+    #span11 {
+        display: none;
+
+    }
+
+
 }
 
+@media only screen and (min-width:481px) and (max-width:700px) {
 
-    
-    
-    .secondnavbar{
-        /* border: 2px solid green; */
-        width: 100%;
-        height: 39px;
+
+    html {
+        font-size: 1px;
+    }
+
+    .topnavbar {
+        height: 50px;
+    }
+
+    #logo {
+        width: 12%;
+    }
+
+
+    #address {
+        width: 12%;
+
+    }
+
+    #locationlogo {
+        font-size: 7rem;
+        margin-right: 2rem
+    }
+
+    #hello {
+        margin-left: 0%;
+    }
+
+    #hello p {
+        font-size: 7rem;
+    }
+
+    #hello span {
+        font-size: 5rem;
+    }
+
+    #search {
+        width: 40%;
+    }
+
+    #all {
+        width: 17%;
+        height: 22px;
+    }
+
+    #all select {
+        font-size: 7rem;
+        text-indent: 0%;
+
+    }
+
+    #searchbar {
+        width: 75%;
+        height: 22px;
+    }
+
+    #searchbar input {
+        font-size: 7rem;
+
+    }
+
+    #searchlogo {
+        width: 15%;
+        height: 22px;
+
+    }
+
+    #searchlogo button {
+        font-size: 12rem;
+    }
+
+
+    #language {
+        width: 4%;
+    }
+
+    #language h3 {
+        font-size: 20rem;
+    }
+
+    #language div {
+        display: none;
+    }
+
+
+    #account {
+        width: 10%;
+        margin-left: 0%;
         display: flex;
-        justify-content:space-around;
-        background-color: rgb(34,47, 62);
-        color: white;
-        font-family:  Helvetica, sans-serif, Arial,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
     }
-    
-    .left{
-        /* border: 2px solid blue; */
-    width: 72%;
-    display: flex;
-        justify-content: space-between;
+
+    #sign {
+        font-size: 7rem;
+        padding-top: 0%;
+
+    }
+
+    #account1 {
+        font-size: 6rem;
+
+
+    }
+
+
+    #return {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #return1 {
+        font-size: 7rem;
+        padding-top: 0%;
+    }
+
+    #Orders {
+        font-size: 8rem;
+
+    }
+
+    #cart {
+        width: 7%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
         align-items: center;
-    
     }
-    
-    
-    #span1{
+
+
+    #cartimg i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        font-size: 10rem;
+    }
+
+    #cart h1 {
+
+        width:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10rem;
+    }
+
+
+
+
+    .secondnavbar {
+        height: 19px;
+
+    }
+
+    .left {
+        width: 70%;
+    }
+
+
+
+
+    #span1 {
+        font-size: 7rem;
         width: 5%;
-        height: 100%;
-        justify-content: space-evenly;
-        display: flex;
-        align-items: center;
-        font-weight: bolder;
-    
+
     }
-    #span2{
-        width: 13%;
-        height: 100%;
-        justify-content: center;
-        display: flex;
-        align-items: center;
+
+    #span2 {
+        font-size: 7rem;
+        width: 18%;
+
     }
-    #span3{
-        width: 5%;
-        height: 100%;
-        justify-content: center;
-        display: flex;
-        align-items: center;
+
+    #span3 {
+        font-size: 7rem;
+        width: 7%;
+
     }
-    #span4{
-    width: 9%;
-        height: 100%;
-        justify-content: center;
-        display: flex;
-        align-items: center;
+
+    #span4 {
+        font-size: 7rem;
+        width: 14%;
+
     }
-    #span5{
-    width: 10%;
-        height: 100%;
-        justify-content: center;
-        display: flex;
-        align-items: center;
+
+    #span5 {
+        font-size: 7rem;
+        width: 17%;
+
     }
-    #span6{
-    width: 7%;
-        height: 100%;
-        justify-content: center;
-        display: flex;
-        align-items: center;
+
+    #span6 {
+        font-size: 7rem;
+        width: 9%;
+
     }
-    #span7{
-    width: 14%;
-        height: 100%;
-        justify-content: center;
-        display: flex;
-        align-items: center;
+
+    #span7 {
+        font-size: 7rem;
+        width: 19%;
+
     }
-    #span8{
-    width: 9%;
-        height: 100%;
-        justify-content: center;
-        display: flex;
-        align-items: center;
+
+    #span8 {
+        display: none;
+
     }
-    #span9{
-    width: 10%;
-        height: 100%;
-        justify-content: center;
-        display: flex;
-        align-items: center;
+
+    #span9 {
+        display: none;
+
     }
-    #span10{
-    width: 6%;
-        height: 100%;
-        justify-content: center;
-        display: flex;
-        align-items: center;
+
+    #span10 {
+        display: none;
     }
-    #span11{
-    width: 13%;
-        height: 100%;
-        justify-content: center;
-        display: flex;
-        align-items: center;
+
+    #span11 {
+        display: none;
+
     }
-    
-    
-    .left span:hover{
-        border: 1px solid white;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        height: 100%;
-    
-    }
-    
-    #nav1:hover{
-        border: 1px solid white;
-        cursor: pointer;
-    
-    }
-    
-    .right{
-        /* border: 2px solid blue; */
-    width: 28%;
-    }
-    
-    #rightimg img:hover{
-        border: 1px solid white;
-        cursor: pointer;
-    }
+
+
 
 }
