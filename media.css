@@ -224,6 +224,7 @@
 
 }
 
+
 @media only screen and (min-width:481px) and (max-width:700px) {
 
 
@@ -453,6 +454,818 @@
 
     }
 
+}
 
+@media only screen and (min-width:701px) and (max-width:950px) {
+
+
+    html {
+        font-size: 1px;
+    }
+
+    .topnavbar {
+        height: 62px;
+    }
+
+    #logo {
+        width: 12%;
+    }
+
+
+    #address {
+        width: 12%;
+
+    }
+
+    #locationlogo {
+        font-size: 11rem;
+        margin-right: 2rem
+    }
+
+    #hello {
+        margin-left: 0%;
+    }
+
+    #hello p {
+        font-size: 11rem;
+        font-weight: bold;
+
+    }
+
+    #hello span {
+        font-size: 7rem;
+        font-weight: bold;
+
+    }
+
+    #search {
+        width: 40%;
+    }
+
+    #all {
+        width: 13%;
+        height: 32px;
+    }
+
+    #all select {
+        font-size: 11rem;
+        text-indent: 0%;
+
+    }
+
+    #searchbar {
+        width: 75%;
+        height: 32px;
+    }
+
+    #searchbar input {
+        font-size: 14rem;
+
+    }
+
+    #searchlogo {
+        width: 15%;
+        height: 32px;
+
+    }
+
+    #searchlogo button {
+        font-size: 20rem;
+    }
+
+
+    #language {
+        width: 4%;
+    }
+
+    #language h3 {
+        font-size: 26rem;
+    }
+
+    #language div {
+        display: none;
+    }
+
+
+    #account {
+        width: 10%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    #sign {
+        font-size: 10rem;
+        font-weight: bold;
+        padding-top: 0%;
+
+    }
+
+    #account1 {
+        font-size: 9rem;
+        font-weight: bold;
+
+
+    }
+
+
+    #return {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #return1 {
+        font-size: 10rem;
+        padding-top: 0%;
+        font-weight: bold;
+
+    }
+
+    #Orders {
+        font-size: 12rem;
+        font-weight: bold;
+
+
+    }
+
+    #cart {
+        width: 7%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #cartimg i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        font-size: 17rem;
+        font-weight: bold;
+
+    }
+
+    #cart h1 {
+
+        width:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13rem;
+        font-weight: bold;
+
+    }
+
+
+
+
+    .secondnavbar {
+        height: 28px;
+
+    }
+
+    .left {
+        width: 70%;
+    }
+
+
+
+
+    #span1 {
+        font-size: 8rem;
+        width: 5%;
+
+    }
+
+    #span2 {
+        font-size: 8rem;
+        width: 18%;
+
+    }
+
+    #span3 {
+        font-size: 8rem;
+        width: 7%;
+
+    }
+
+    #span4 {
+        font-size: 8rem;
+        width: 14%;
+
+    }
+
+    #span5 {
+        font-size: 8rem;
+        width: 17%;
+
+    }
+
+    #span6 {
+        font-size: 8rem;
+        width: 9%;
+
+    }
+
+    #span7 {
+        font-size: 8rem;
+        width: 19%;
+
+    }
+
+    #span8 {
+        font-size: 8rem;
+        width: 13%;
+
+    }
+
+    #span9 {
+        font-size: 8rem;
+        width: 16%;
+
+    }
+
+    #span10 {
+        font-size: 8rem;
+        width: 10%;
+    }
+
+    #span11 {
+       display: none;
+    }
+
+}
+
+@media only screen and (min-width:951px) and (max-width:1100px) {
+
+
+    html {
+        font-size: 1px;
+    }
+
+    .topnavbar {
+        height: 70px;
+    }
+
+    #logo {
+        width: 13%;
+    }
+
+
+    #address {
+        width: 12%;
+
+    }
+
+    #locationlogo {
+        font-size: 16rem;
+        margin-right: 2rem
+    }
+
+    #hello {
+        margin-left: 0%;
+    }
+
+    #hello p {
+        font-size: 16rem;
+        font-weight: bold;
+
+    }
+
+    #hello span {
+        font-size: 10rem;
+        font-weight: bold;
+
+    }
+
+    #search {
+        width: 40%;
+    }
+
+    #all {
+        width: 12%;
+        height: 42px;
+    }
+
+    #all select {
+        font-size: 17rem;
+        text-indent: 0%;
+
+    }
+
+    #searchbar {
+        width: 75%;
+        height: 42px;
+    }
+
+    #searchbar input {
+        font-size: 17rem;
+
+    }
+
+    #searchlogo {
+        width: 15%;
+        height: 42px;
+
+    }
+
+    #searchlogo button {
+        font-size: 25rem;
+    }
+
+
+    #language {
+        width: 4%;
+    }
+
+    #language h3 {
+        font-size: 36rem;
+    }
+
+    #language div {
+        display: none;
+    }
+
+
+    #account {
+        width: 10%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    #sign {
+        font-size: 13rem;
+        font-weight: bold;
+        padding-top: 0%;
+
+    }
+
+    #account1 {
+        font-size: 12rem;
+        font-weight: bold;
+
+
+    }
+
+
+    #return {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #return1 {
+        font-size: 13rem;
+        padding-top: 0%;
+        font-weight: bold;
+
+    }
+
+    #Orders {
+        font-size: 16rem;
+        font-weight: bold;
+
+
+    }
+
+    #cart {
+        width: 7%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #cartimg i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        font-size: 22rem;
+        font-weight: bold;
+
+    }
+
+    #cart h1 {
+
+        width:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20rem;
+        font-weight: bold;
+
+    }
+
+
+
+
+    .secondnavbar {
+        height: 34px;
+
+    }
+
+    .left {
+        width: 70%;
+    }
+
+
+
+
+    #span1 {
+        font-size: 11rem;
+        width: 5%;
+
+    }
+
+    #span2 {
+        font-size: 11rem;
+        width: 18%;
+
+    }
+
+    #span3 {
+        font-size: 11rem;
+        width: 7%;
+
+    }
+
+    #span4 {
+        font-size: 11rem;
+        width: 14%;
+
+    }
+
+    #span5 {
+        font-size: 11rem;
+        width: 17%;
+
+    }
+
+    #span6 {
+        font-size: 11rem;
+        width: 9%;
+
+    }
+
+    #span7 {
+        font-size: 11rem;
+        width: 22%;
+
+    }
+
+    #span8 {
+        font-size: 11rem;
+        width: 13%;
+
+    }
+
+    #span9 {
+        font-size: 11rem;
+        width: 16%;
+
+    }
+
+    #span10 {
+        font-size: 11rem;
+        width: 8%;
+    }
+
+    #span11 {
+       display: none;
+
+}
+}
+
+
+@media only screen and (min-width:1101px) and (max-width:1350px) {
+
+
+    html {
+        font-size: 1px;
+    }
+
+    .topnavbar {
+        height: 85px;
+    }
+
+    #logo {
+        width: 13%;
+    }
+
+
+    #address {
+        width: 12%;
+
+    }
+
+    #locationlogo {
+        font-size: 19rem;
+        margin-right: 2rem
+    }
+
+    #hello {
+        margin-left: 0%;
+    }
+
+    #hello p {
+        font-size: 20rem;
+        font-weight: bold;
+
+    }
+
+    #hello span {
+        font-size: 12rem;
+        font-weight: bold;
+
+    }
+
+    #search {
+        width: 40%;
+    }
+
+    #all {
+        width: 12%;
+        height: 42px;
+    }
+
+    #all select {
+        font-size: 17rem;
+        text-indent: 0%;
+
+    }
+
+    #searchbar {
+        width: 75%;
+        height: 42px;
+    }
+
+    #searchbar input {
+        font-size: 17rem;
+
+    }
+
+    #searchlogo {
+        width: 15%;
+        height: 42px;
+
+    }
+
+    #searchlogo button {
+        font-size: 25rem;
+    }
+
+
+    #language {
+        width: 4%;
+    }
+
+    #language h3 {
+        font-size: 36rem;
+    }
+
+    #language div {
+        display: none;
+    }
+
+
+    #account {
+        width: 10%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    #sign {
+        font-size: 15rem;
+        font-weight: bold;
+        padding-top: 0%;
+
+    }
+
+    #account1 {
+        font-size: 14rem;
+        font-weight: bold;
+
+
+    }
+
+
+    #return {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #return1 {
+        font-size: 15rem;
+        padding-top: 0%;
+        font-weight: bold;
+
+    }
+
+    #Orders {
+        font-size: 18rem;
+        font-weight: bold;
+
+
+    }
+
+    #cart {
+        width: 7%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #cartimg i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        font-size: 24rem;
+        font-weight: bold;
+
+    }
+
+    #cart h1 {
+
+        width:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22rem;
+        font-weight: bold;
+
+    }
+
+
+
+
+    .secondnavbar {
+        height: 40px;
+
+    }
+
+    .left {
+        width: 70%;
+    }
+
+
+
+
+    #span1 {
+        font-size: 14rem;
+        width: 8%;
+
+    }
+
+    #span2 {
+        font-size: 14rem;
+        width: 19%;
+
+    }
+
+    #span3 {
+        font-size: 14rem;
+        width: 7%;
+
+    }
+
+    #span4 {
+        font-size: 14rem;
+        width: 14%;
+
+    }
+
+    #span5 {
+        font-size: 14rem;
+        width: 17%;
+
+    }
+
+    #span6 {
+        font-size: 14rem;
+        width: 9%;
+
+    }
+
+    #span7 {
+        font-size: 14rem;
+        width: 22%;
+
+    }
+
+    #span8 {
+        font-size: 14rem;
+        width: 13%;
+
+    }
+
+    #span9 {
+        font-size: 14rem;
+        width: 16%;
+
+    }
+
+    #span10 {
+        font-size: 14rem;
+        width: 8%;
+    }
+
+    #span11 {
+       display: none;
+
+}
+}
+
+
+
+@media only screen and (min-width:1351px) and (max-width:1500px) {
+
+
+    #span1 {
+        font-size: 1rem;
+        width: 8%;
+
+    }
+
+    #span2 {
+        font-size: 1rem;
+        width: 19%;
+
+    }
+
+    #span3 {
+        font-size: 1rem;
+        width: 7%;
+
+    }
+
+    #span4 {
+        font-size: 1rem;
+        width: 14%;
+
+    }
+
+    #span5 {
+        font-size: 1rem;
+        width: 17%;
+
+    }
+
+    #span6 {
+        font-size: 1rem;
+        width: 9%;
+
+    }
+
+    #span7 {
+        font-size: 1rem;
+        width: 22%;
+
+    }
+
+    #span8 {
+        font-size: 1rem;
+        width: 13%;
+
+    }
+
+    #span9 {
+        font-size: 1rem;
+        width: 16%;
+
+    }
+
+    #span10 {
+        font-size: 1rem;
+        width: 8%;
+    }
+
+    #span11 {
+      display: none;
+
+}
+ 
 
 }
